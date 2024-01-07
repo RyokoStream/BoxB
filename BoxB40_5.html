@@ -1,6 +1,31 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+
+<style>
+  body {
+    font-size: 24px; /* Adjust the font size as needed */
+  }
+  button {
+    font-size: 24px; /* Adjust the font size as needed */
+  }
+</style>
+<style>
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+</style>
+
+
+<div style="text-align: center;">
+  <!-- Your existing content here -->
+</div>
+
 <meta charset="UTF-8">
 <title>インタラクティブなサイコロゲーム</title>
 <script>
@@ -72,7 +97,7 @@ function rollEpsilon() {
 </head>
 <body>
 
-<button id="alphaButton" onclick="rollAlpha()">αのサイコロを振る</button>
+<button id="alphaButton" onclick="rollAlpha()">箱Bのαのサイコロを振る</button>
 <p id="alphaResult"></p>
 
 <button id="betaButton" onclick="rollBeta()" style="display:none;">βのサイコロを振る</button>
